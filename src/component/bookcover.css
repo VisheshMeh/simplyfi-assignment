@@ -1,0 +1,49 @@
+.book-cover {
+  background-color: #2a2a2a;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.diamond {
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+}
+.top-color {
+  flex: 1;
+  background-color: teal;
+}
+
+.middle-color {
+  flex: 1;
+  background-color: orange;
+}
+
+.bottom-color {
+  flex: 1;
+  background-color: green;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.subtitle {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.author {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
